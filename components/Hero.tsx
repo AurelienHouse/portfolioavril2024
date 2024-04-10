@@ -18,9 +18,9 @@ export const Hero = () => {
                     <ReactIcon size={16} className="inline" />React</Code>
                 et utilise Tailwind, NextJs et TypeScript
             </p>
-            <p className="mt-3 mr-7 text-base text-muted-foreground">
+            {/* <p className="mt-3 mr-7 text-base text-muted-foreground">
             "Je suis un développeur Front-end passionné, spécialisé en ReactJS, avec une solide base acquise lors d'un bootcamp chez Epitech en 2023. Mon parcours a débuté pendant le confinement où j'ai découvert ma passion pour le code. Depuis, j'ai consacré de nombreuses heures à perfectionner mes compétences en autodidacte, en réalisant divers projets personnels. Mon engagement et ma volonté d'apprentissage continu me permettent d'appréhender avec confiance les défis techniques et d'apporter des solutions innovantes. Je suis enthousiaste à l'idée de contribuer à des projets passionnants et de progresser au sein d'une équipe dynamique."
-            </p>
+            </p> */}
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto ">
             <img src="https://media.licdn.com/dms/image/C5603AQGp-ljV1rd42A/profile-displayphoto-shrink_800_800/0/1567900735362?e=1718236800&v=beta&t=54aeK-WXLu2q0wj3WPaQzWFdmwHvpxwDSi_qkw8MPW4" alt="ma photo de profil" className="rounded-full w-full h-auto max-w-xs max-md:w-56 m-4 " />
