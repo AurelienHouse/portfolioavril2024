@@ -1,1 +1,1 @@
-Mon Portfolio 2024 pour me presenter ainsi que les technologie que j'utilise
+Mon Portfolio 2024 pour me presenter ainsi que les technologies que j'utilise
