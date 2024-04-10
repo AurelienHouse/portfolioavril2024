@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import { Section } from "./Section";
 import { ReactIcon } from "./ui/ReactIcon";
@@ -16,8 +17,9 @@ export const Hero = () => {
                 Je suis un codeur <Code className="inline-flex items-center m-2 gap-1">
                     <ReactIcon size={16} className="inline" />React</Code>
                 et utilise Tailwind, NextJs et TypeScript
-
-                
+            </p>
+            <p className="mt-3 mr-7 text-base text-muted-foreground">
+            "Je suis un développeur Front-end passionné, spécialisé en ReactJS, avec une solide base acquise lors d'un bootcamp chez Epitech en 2022. Mon parcours a débuté pendant le confinement où j'ai découvert ma passion pour le code. Depuis, j'ai consacré de nombreuses heures à perfectionner mes compétences en autodidacte, en réalisant divers projets personnels. Mon engagement et ma volonté d'apprentissage continu me permettent d'appréhender avec confiance les défis techniques et d'apporter des solutions innovantes. Je suis enthousiaste à l'idée de contribuer à des projets passionnants et de progresser au sein d'une équipe dynamique."
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto ">
