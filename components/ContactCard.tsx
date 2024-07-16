@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { ArrowUpRight } from "lucide-react";
 import { Card } from "./ui/card";
+import CvProfilPicture from "./ui/CvProfilPicture";
 
 export const ContactCard = (props: {
   image: string;

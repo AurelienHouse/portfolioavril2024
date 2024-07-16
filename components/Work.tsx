@@ -36,7 +36,8 @@ export const Work = (props: WorkProps) => {
   return (
     <Link
       href={props.url}
-      className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
+      target="_blank"
+      className="inline-flex items-center gap-4 hover:bg-accent/50 hover:pl-2  transition-colors p-1 rounded"
     >
       <span className="bg-accent text-accent-foreground p-3 rounded-sm">
         <props.Logo size={16} />
