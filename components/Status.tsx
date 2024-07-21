@@ -12,9 +12,7 @@ export const Status = () => {
     <Section className="flex max-md:flex-col items-start gap-4">
       <div className="flex[3] w-full">
         <Card className="w-full p-4 flex flex-col gap-2">
-          <p className="text-lg uppercase text-muted-foreground">
-            side projects
-          </p>
+          <p className="text-lg uppercase text-muted-foreground">projets</p>
           <div className="flex flex-col gap-4">
             {SIDE_PROJECT.map((project, index) => (
               <SideProject
@@ -31,7 +29,7 @@ export const Status = () => {
 
       <div className="flex-[2] flex flex-col w-full gap-4">
         <Card className="p-4 flex-1">
-          <p className="text-lg uppercase text-muted-foreground">Work</p>
+          <p className="text-lg uppercase text-muted-foreground">métiers</p>
           <div className="flex flex-col gap-4">
             {WORKS.map((work, index) => (
               <Work key={index} {...work} />
@@ -40,7 +38,9 @@ export const Status = () => {
         </Card>
 
         <Card className="p-4 flex-1 flex flex-col gap-2">
-          <p className="text-lg uppercase text-muted-foreground">contact me</p>
+          <p className="text-lg uppercase text-muted-foreground">
+            contactez moi
+          </p>
           <Link href="https://www.linkedin.com/in/aur%C3%A9lien-maison-30150088/">
             <ContactCard
               title="aurélien-maison"

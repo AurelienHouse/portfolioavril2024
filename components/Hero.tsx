@@ -25,7 +25,7 @@ export const Hero = () => {
             "Je suis un développeur Front-end passionné, spécialisé en ReactJS, avec une solide base acquise lors d'un bootcamp chez Epitech en 2023. Mon parcours a débuté pendant le confinement où j'ai découvert ma passion pour le code. Depuis, j'ai consacré de nombreuses heures à perfectionner mes compétences en autodidacte, en réalisant divers projets personnels. Mon engagement et ma volonté d'apprentissage continu me permettent d'appréhender avec confiance les défis techniques et d'apporter des solutions innovantes. Je suis enthousiaste à l'idée de contribuer à des projets passionnants et de progresser au sein d'une équipe dynamique."
             </p> */}
       </div>
-      <div className="flex-[2] max-md:m-auto ml-auto ">
+      <div className="flex-[2] w-1/2 xl:w-1/2 max-md:m-auto ml-auto ">
         <CvProfilPicture />
       </div>
     </Section>
