@@ -7,7 +7,7 @@ import CvProfilPicture from "./ui/CvProfilPicture";
 
 export const Hero = () => {
   return (
-    <Section className="flex max-md:flex-col items-start">
+    <Section className="flex max-md:flex-col items-start p-7">
       <div className="flex-[3] w-full flex flex-col gap-2">
         <h2 className="font-caption font-bold text-muted-foreground  text-5xl">
           Aurélien MAISON
@@ -26,7 +26,7 @@ export const Hero = () => {
             </p> */}
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto ">
-        <div className="w-1/2 rounded-full overflow-hidden">
+        <div className="w-1/2 rounded-full m-7 overflow-hidden">
           <CvProfilPicture className="object-contain w-full h-full" />
         </div>
       </div>
