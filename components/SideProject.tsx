@@ -15,6 +15,13 @@ export const SIDE_PROJECT = [
     description: "Une application Web pour un restaurant de burgers",
     url: "https://burger-house-fe593.firebaseapp.com/",
   },
+  {
+    Logo: Utensils,
+    title: "Veggie House",
+    description:
+      "Version Végétarienne de Burger House avec des animations dynamique",
+    url: "https://veggie-house.vercel.app/",
+  },
   // {
   //   Logo: Code,
   //   title: "NBA cards",
