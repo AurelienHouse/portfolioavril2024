@@ -8,7 +8,7 @@ import { LinkedInIcon } from "./ui/LinkedInIcon";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4 bg-gradient-to-b from-slate-950">
+    <header className="sticky top-0 py-4 backdrop-blur-sm bg-gradient-to-b from-slate-950">
       <Section className="flex items-baseline">
         <h1 className="text-4xl uppercase font-bold text-primary mr-2">
           PortFolio 2024
