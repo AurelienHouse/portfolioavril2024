@@ -11,9 +11,9 @@ export type SideProjectProps = {
 export const SIDE_PROJECT = [
   {
     Logo: Utensils,
-    title: "Burger House",
-    description: "Une application Web pour un restaurant de burgers",
-    url: "https://burger-house-fe593.firebaseapp.com/",
+    title: "ePagine",
+    description: "Une landing page pour un site de librairie",
+    url: "https://demo-landing-page-book-shop.vercel.app/",
   },
   {
     Logo: Utensils,
