@@ -1,5 +1,5 @@
 // import { url } from "inspector";
-import { Code, LucideIcon, Utensils } from "lucide-react";
+import { Book, Code, LucideIcon, Utensils } from "lucide-react";
 import Link from "next/link";
 
 export type SideProjectProps = {
@@ -10,7 +10,7 @@ export type SideProjectProps = {
 };
 export const SIDE_PROJECT = [
   {
-    Logo: Utensils,
+    Logo: Book,
     title: "ePagine",
     description: "Une landing page pour un site de librairie",
     url: "https://demo-landing-page-book-shop.vercel.app/",
