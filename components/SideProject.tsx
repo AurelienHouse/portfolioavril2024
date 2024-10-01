@@ -18,16 +18,16 @@ export const SIDE_PROJECT = [
   {
     Logo: Utensils,
     title: "Veggie House",
-    description:
-      "Version Végétarienne de Burger House avec des animations dynamique",
+    description: "Site de restaurant végétarien avec des animations dynamique",
     url: "https://veggie-house.vercel.app/",
   },
-  // {
-  //   Logo: Code,
-  //   title: "NBA cards",
-  //   description: "une application pour collectionner des cartes de joueurs NBA",
-  //   url: "/"
-  // },
+  {
+    Logo: Utensils,
+    title: "Veggie House Mobile",
+    description:
+      "Version Mobile de Veggie House avec selection de produit et panier",
+    url: "https://veggie-house-mobile.vercel.app/",
+  },
 ];
 
 export const SideProject = (props: SideProjectProps) => {
